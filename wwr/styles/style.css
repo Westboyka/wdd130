@@ -202,6 +202,13 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+#faqquestions {
+    text-align: center;
+    color: #d06305;
+    text-decoration: none;
+    padding: 35px;
+    font-family: Roboto, Helvetica, sans-serif;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
