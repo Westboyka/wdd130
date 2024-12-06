@@ -98,3 +98,32 @@ h4 {
     padding: 2em;
     font-size: 1.2em;
 }
+#child_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#contest_links a{
+    grid-row: 1,10;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: navy;
+    text-decoration: none;
+    font-size: 0.8em
+}
+#contest_links a:hover {
+    background-color: navy;
+    color: whitesmoke;
+}
+#right_side p {
+    color: navy;
+    text-align: center;
+    font-size: 3em;
+    font-family: Roboto, sans-serif;
+}
+.r_logo {
+    width: 100%
+}
