@@ -103,7 +103,7 @@ h4 {
     grid-template-columns: 1fr 1fr;
 }
 #contest_links a{
-    grid-row: 1,10;
+    grid-row: 1 / 10;
     background-color: whitesmoke;
     display: grid;
     grid-template-rows: 150px auto;
