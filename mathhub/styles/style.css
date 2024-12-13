@@ -127,3 +127,25 @@ h4 {
 .r_logo {
     width: 100%
 }
+#contest_links_2 a{
+    grid-row: 1 / 10;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: navy;
+    text-decoration: none;
+    font-size: 1.5em
+}
+#contest_links_2 a:hover {
+    background-color: navy;
+    color: whitesmoke;
+}
+#right_side_2 p {
+    color: navy;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Roboto, sans-serif;
+}
